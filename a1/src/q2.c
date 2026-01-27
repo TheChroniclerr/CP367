@@ -1,7 +1,8 @@
 /*
- * q2.c
- *
- * Created on: 2026-01-26
+ * File: q2.c
+ * Author: Hubert Bao
+ * Student ID: 169077248
+ * Date: 2026-01-26
  */
 #include <stdio.h>
 

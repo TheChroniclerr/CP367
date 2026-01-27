@@ -1,7 +1,8 @@
 /*
- * q3.c
- *
- * Created on: 2026-01-27
+ * File: q3.c
+ * Author: Hubert Bao
+ * Student ID: 169077248
+ * Date: 2026-01-26
  */
 #include <stdio.h>
 #include <string.h>
