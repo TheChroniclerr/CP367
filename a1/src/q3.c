@@ -1,3 +1,8 @@
+/*
+ * q3.c
+ *
+ * Created on: 2026-01-27
+ */
 #include <stdio.h>
 #include <string.h>
 
@@ -76,19 +81,25 @@ void display_structs(struct Student s[], int count) {
     }
 }
 
-int main(void) {
-    struct Student s[MAX_STUDENTS];
-    int count = 0;
-    char command[20];
-    char path[50] = "../assets/students.csv";
-    FILE *fp;
-
+/* Displays menu strings */
+void display_menu(char path[]) {
     printf("Commands:\n");
     printf("File Path (relative): %s\n", path);
+    printf("- menu\n");
     printf("- create\n");
     printf("- display\n");
     printf("- cp\n");
     printf("- exit\n");
+}
+
+int main(void) {
+    struct Student s[MAX_STUDENTS];
+    int count = 0;
+    char command[20];
+    char path[50] = "../assets/students_q3.csv";
+    FILE *fp;
+
+    display_menu(path);
 
     while (1) {
         printf("> ");
@@ -118,6 +129,9 @@ int main(void) {
             } else {
                 fclose(fp);
             }
+
+        } else if (strcmp(command, "menu") == 0) {
+            display_menu(path);
 
         } else if (strcmp(command, "exit") == 0) {
             break;
