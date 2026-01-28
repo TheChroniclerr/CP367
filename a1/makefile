@@ -6,7 +6,7 @@ SUB = submit
 
 submission: all
 	rm -f $(SUB)/a1.zip
-	zip -j $(SUB)/a1.zip $(BIN)/* assets/tests.docx
+	zip -j $(SUB)/a1.zip $(SRC)/* assets/tests.docx
 
 all: $(BIN)/q1 $(BIN)/q2 $(BIN)/q3 $(BIN)/q4
 
