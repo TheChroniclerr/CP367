@@ -1,0 +1,1 @@
+printf "1\n2\n3\n4\n4\n5\n6\n6\n6\n7\n" > in1.txt && printf "3\n4\n9\n9\n9\n12\n" > in2.txt && sort -nu in1.txt in2.txt > output.txt

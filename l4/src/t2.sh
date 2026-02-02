@@ -1,0 +1,1 @@
+cat DNE.txt 2>> errors.txt; ls /root 2>> errors.txt; fakecmd 2>> errors.txt
