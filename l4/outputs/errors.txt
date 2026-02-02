@@ -1,0 +1,3 @@
+cat: DNE.txt: No such file or directory
+ls: cannot open directory '/root': Permission denied
+../src/t2.sh: line 1: fakecmd: command not found
