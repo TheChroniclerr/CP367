@@ -1,0 +1,1 @@
+sed -f assets/p.sed assets/example.txt > outputs/p.txt

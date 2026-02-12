@@ -1,0 +1,6 @@
+<p>This is the first line of an example text.</p>
+<p>It is a text with errors.</p>
+<p>Lots of errors.</p>
+<p>So much errors, all these errors are making me sick.</p>
+<p>This is a line not containing any errors.</p>
+<p>This is the last line.</p>

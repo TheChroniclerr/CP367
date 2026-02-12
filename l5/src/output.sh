@@ -1,0 +1,1 @@
+sed -f assets/p.sed -f assets/newwrap.sed assets/example.txt > outputs/output.html
