@@ -1,0 +1,11 @@
+192.168.1.10 /index.html
+192.168.1.11 /login
+192.168.1.10 /products
+192.168.1.12 /index.html
+192.168.1.13 /cart
+192.168.1.11 /login
+192.168.1.14 /checkout
+ /index.html
+192.168.1.15 /admin
+192.168.1.10 /products
+192.168.1.16 /api/update
