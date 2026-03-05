@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "Hello, $USER!"
+echo "Please enter a command: "
+read cmd
+
+$cmd > output.txt 2> errors.txt
+
+echo "----- OUTPUT -----"
+cat output.txt
+
+echo "----- ERRORS -----"
+cat errors.txt

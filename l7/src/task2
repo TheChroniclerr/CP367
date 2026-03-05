@@ -1,0 +1,23 @@
+#!/bin/sh
+if [ $# -ne 2 ]; then
+    echo "Usage: submit <submission_directory> <filename>"
+    exit 1
+fi
+
+SUBMIT_DIR="$1"
+FILE_NAME="$2"
+
+cd "$SUBMIT_DIR" || {
+    echo "Error: Cannot change to directory $SUBMIT_DIR"
+    exit 1
+}
+
+mkdir -p "$USER"
+
+cp "$OLDPWD/$FILE_NAME" "$USER/" || {
+    echo "Error: File $FILE_NAME does not exist"
+    exit 1
+}
+
+echo "File submitted in $SUBMIT_DIR/$USER:"
+ls -l "$USER"

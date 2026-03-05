@@ -1,0 +1,1 @@
+../src/task1: 6: arst: not found
