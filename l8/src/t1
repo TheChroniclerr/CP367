@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "x = " x
+read -p "y = " y
+echo "$x + $y = $((x + y))"

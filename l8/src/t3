@@ -1,0 +1,7 @@
+#!/bin/bash
+KEY=""
+while [ "$KEY" != "*" ]
+do
+    ./t2 $1 $2
+    read -p "Return any key to continue, or * to exit. " KEY
+done
