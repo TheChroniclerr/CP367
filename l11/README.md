@@ -23,13 +23,15 @@ git checkout master
 git merge <other_branch>
 
 echo "CONFLICT:" > output.txt
-git conflicted.txt >> output.txt
+cat conflicted.txt >> output.txt
 
 <resolving conflict...>
 
 echo "RESOLUTION:" >> output.txt
-git conflicted.txt >> output.txt
+cat conflicted.txt >> output.txt
+
+<commiting merge conflict...>
 
 echo "TREE:" >> output.txt
-git log --graph --oneline --all >> output.txt
+git log --graph -n 4 >> output.txt
 ```
